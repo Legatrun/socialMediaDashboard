@@ -165,6 +165,7 @@ h2 {
     position: relative;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .textMid {
@@ -180,6 +181,7 @@ h2 {
     height: 125px;
     margin: 0 auto 30px auto;
     padding: 25px 30px 25px 25px;
+    border-radius: 5px;
 }
 
 .stadisticsSmall {
@@ -201,4 +203,39 @@ h2 {
 .containerSmall {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .small {
+        width: 85%;
+        margin: 0 auto 20px auto;
+    }
+
+    .large {
+        width: 85%;
+    }
+
+    .box1 {
+        flex-direction: column;
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .socialMedia {
+        margin: 1rem 0;
+    }
+
+
+    .darkMode {
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 }
