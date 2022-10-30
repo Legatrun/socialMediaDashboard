@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+#Dark {
+  background-color: #1e202a;
+}
+
+#Light {
+  background-color: #f5f7ff;
+}
+
+.firstDark {
+  color: white;
+}
+
+.firstLight {
+  color: #1e202a;
+}
+
+.secondaryDark {
+  color: #8897C6;
+}
+
+.secondaryLight {
+  color: #63687E;
+}
+
+/* .threeLight {
+  color: #63687E;
+}
+
+.threeDark {
+  color: #8897C6;
+} */

@@ -1,0 +1,204 @@
+.pagePrincipal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 27.3px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+.container {
+    width: 1150px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.darkMode {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.DarkBox {
+    background-color: #252a41;
+}
+
+.LightBox {
+    background-color: #f0f2fa;
+}
+
+.large {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 255px;
+    height: 216px;
+    padding: 32px 20px 25px 20px;
+    margin: 0 auto 24px auto;
+    border-radius: 5px;
+}
+
+.numberBox {
+    font-size: 52.5px;
+}
+
+.follower {
+    letter-spacing: 0.35em;
+    font-size: 12.6;
+}
+
+.today {
+    font-size: 11.9px;
+    margin-left: 5px;
+}
+
+.logosBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.iconsBoxGreen,
+.iconsBoxRed {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.iconsBoxGreen {
+    color: #1db489;
+}
+
+.iconsBoxRed {
+    color: #dc414c;
+}
+
+.up {
+    background-image: url(./assets/images/icon-up.svg);
+}
+
+.down {
+    background-image: url(./assets/images/icon-down.svg);
+}
+
+.sn-logo {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sn-trend {
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(./assets/images/icon-facebook.svg);
+}
+
+.twitter {
+    background-image: url(./assets/images/icon-twitter.svg);
+}
+
+.instagram {
+    background-image: url(./assets/images/icon-instagram.svg);
+}
+
+.youtube {
+    background-image: url(./assets/images/icon-youtube.svg);
+}
+
+.nameSocial {
+    margin-left: 7.5px;
+    font-size: 11.9px;
+}
+
+
+.boxStadistics1 {
+    border-top: 5px solid #198ff5;
+}
+
+.boxStadistics2 {
+    border-top: 5px solid #1ca0f2;
+}
+
+.boxStadistics3 {
+    position: relative;
+}
+
+.boxStadistics3::before {
+    background-image: linear-gradient(to right, #fdc468, #df4996);
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.boxStadistics4 {
+    border-top: 5px solid #c4032a;
+}
+
+
+.containerStatistics {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.textMid {
+    font-size: 24px;
+    margin: 25px 10px;
+}
+
+.small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    height: 125px;
+    margin: 0 auto 30px auto;
+    padding: 25px 30px 25px 25px;
+}
+
+.stadisticsSmall {
+    font-size: 13.5px;
+    font-weight: 700;
+    line-height: 1.7em;
+    border-radius: 5px;
+}
+
+.boxSmall {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberSmall {
+    font-size: 31.5px;
+}
+
+.containerSmall {
+    display: flex;
+    flex-wrap: wrap;
+}
